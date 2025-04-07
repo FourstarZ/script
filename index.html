@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -7,20 +7,17 @@
     <title>Geme puta</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
     <style>
         @keyframes pulse-card {
             0%, 100% {
                 transform: scale(1);
                 box-shadow: 0 0 0 rgba(255, 255, 255, 0);
             }
-
             50% {
                 transform: scale(1.02);
                 box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
             }
         }
-
         .animate-pulse-card {
             animation: pulse-card 2s infinite ease-in-out;
         }
@@ -28,46 +25,35 @@
 </head>
 
 <body class="bg-black text-white min-h-screen flex flex-col">
-
     <!-- Camada de introdução -->
-    <div id="intro"
-         class="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-md flex items-center justify-center z-50 cursor-pointer transition-opacity duration-500">
+    <div id="intro" class="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-md flex flex-col items-center justify-center z-50 cursor-pointer transition-opacity duration-500">
         <p class="text-xl sm:text-xl text-white text-center px-4">Clique em qualquer lugar</p>
-        <div id="click-counter">Cliques: carregando...</div>
-
+        <div id="click-counter" class="text-white text-lg mt-4">Cliques: carregando...</div>
     </div>
 
     <!-- Conteúdo principal -->
     <main id="conteudo" class="flex-grow flex items-center justify-center opacity-0 transition-opacity duration-500">
         <div class="flex flex-wrap gap-10 justify-center p-6">
-
             <!-- Card ANDRE -->
             <div class="rounded-2xl p-6 max-w-xs shadow-md animate-pulse-card bg-gradient-to-br from-zinc-900 via-zinc-800/80 to-black">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="https://cdn.discordapp.com/attachments/1354928174265274480/1358822085543334168/IMG_8068.jpg?ex=67f53d2e&is=67f3ebae&hm=b60f0dbefc14f038b32c516f2632fd02705e5fc67e36dd02b380d0640ef8b7cf&"
-                         alt="Foto de perfil" class="w-14 h-14 rounded-full border border-white">
+                    <img src="https://cdn.discordapp.com/attachments/1354928174265274480/1358822085543334168/IMG_8068.jpg" alt="Foto de perfil" class="w-14 h-14 rounded-full border border-white">
                     <div>
                         <h2 class="text-xl font-bold tracking-widest">André</h2>
                         <p class="text-sm text-gray-400">Especialista em te fazer feliz</p>
                     </div>
                 </div>
-
                 <div class="flex gap-2 mt-4">
-                    <a href="https://discord.com/users/1249477991747293266" target="_blank"
-                       class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
-                        <img src="https://img.icons8.com/?size=100&id=30888&format=png&color=FFFFFF" alt="Discord"
-                             class="w-4 h-4">
-                        esfolaram
+                    <a href="https://discord.com/users/1249477991747293266" target="_blank" class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
+                        <img src="https://img.icons8.com/?size=100&id=30888&format=png&color=FFFFFF" alt="Discord" class="w-4 h-4"> esfolaram
                     </a>
-                    <a href="https://instagram.com/andre.psyc" target="_blank"
-                       class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
+                    <a href="https://instagram.com/andre.psyc" target="_blank" class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 h-4" viewBox="0 0 24 24">
                             <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.056 2.005.246 2.47.415a4.92 4.92 0 0 1 1.675 1.093 4.92 4.92 0 0 1 1.093 1.675c.169.465.359 1.264.415 2.47.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.206-.246 2.005-.415 2.47a4.902 4.902 0 0 1-1.093 1.675 4.902 4.902 0 0 1-1.675 1.093c-.465.169-1.264.359-2.47.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.056-2.005-.246-2.47-.415a4.92 4.92 0 0 1-1.675-1.093 4.92 4.92 0 0 1-1.093-1.675c-.169-.465-.359-1.264-.415-2.47C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.206.246-2.005.415-2.47a4.902 4.902 0 0 1 1.093-1.675 4.902 4.902 0 0 1 1.675-1.093c.465-.169 1.264-.359 2.47-.415C8.416 2.175 8.796 2.163 12 2.163zm0 3.675a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z" />
                         </svg>
                         @andre.psyc
                     </a>
                 </div>
-
                 <h3 class="text-gray-400 text-xs mb-1 mt-4">HABILIDADES</h3>
                 <div class="flex flex-wrap gap-2 mb-4">
                     <span class="bg-zinc-800 text-sm px-3 py-1 rounded-full">HTML/CSS</span>
@@ -79,29 +65,23 @@
             <!-- Card DANIEL -->
             <div class="rounded-2xl p-6 max-w-xs shadow-md animate-pulse-card bg-gradient-to-br from-zinc-900 via-zinc-800/80 to-black">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="https://cdn.discordapp.com/avatars/1240408239280226397/238442ddf166f24fb63c278041b76f86.png?size=4096"
-                         alt="Foto de perfil" class="w-14 h-14 rounded-full border border-white">
+                    <img src="https://cdn.discordapp.com/avatars/1240408239280226397/238442ddf166f24fb63c278041b76f86.png?size=4096" alt="Foto de perfil" class="w-14 h-14 rounded-full border border-white">
                     <div>
                         <h2 class="text-xl font-bold tracking-widest">Daniel</h2>
-                        <p class="text-sm text-gray-400">Não pertube!</p>
+                        <p class="text-sm text-gray-400">Não perturbe!</p>
                     </div>
                 </div>
-
                 <div class="flex gap-2 mt-4">
-                    <a href="https://discord.com/users/1240408239280226397" target="_blank"
-                       class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
-                        <img src="image.png" alt="Discord" class="w-4 h-4">
-                        dnpecinha
+                    <a href="https://discord.com/users/1240408239280226397" target="_blank" class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
+                        <img src="image.png" alt="Discord" class="w-4 h-4"> dnpecinha
                     </a>
-                    <a href="https://www.instagram.com/dndc2k25/" target="_blank"
-                       class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
+                    <a href="https://www.instagram.com/dndc2k25/" target="_blank" class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 h-4" viewBox="0 0 24 24">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.056 2.005.246 2.47.415a4.92 4.92 0 0 1 1.675 1.093 4.92 4.92 0 0 1 1.093 1.675c.169.465.359 1.264.415 2.47.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.206-.246 2.005-.415 2.47a4.902 4.902 0 0 1-1.093 1.675 4.902 4.902 0 0 1-1.675 1.093c-.465.169-1.264.359-2.47.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.056-2.005-.246-2.47-.415a4.92 4.92 0 0 1-1.675-1.093 4.92 4.92 0 0 1-1.093-1.675c-.169-.465-.359-1.264-.415-2.47C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.206.246-2.005.415-2.47a4.902 4.902 0 0 1 1.093-1.675 4.902 4.902 0 0 1 1.675-1.093c.465-.169 1.264-.359 2.47-.415C8.416 2.175 8.796 2.163 12 2.163zm0 3.675a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z" />
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 ..." />
                         </svg>
                         @dndc2k25
                     </a>
                 </div>
-
                 <h3 class="text-gray-400 text-xs mb-1 mt-4">HABILIDADES</h3>
                 <div class="flex flex-wrap gap-2 mb-4">
                     <span class="bg-zinc-800 text-sm px-3 py-1 rounded-full">Jogar o dia todo</span>
@@ -109,7 +89,6 @@
                 </div>
                 <p class="text-sm text-gray-300">Gosta de mulher brava, surtada e sapeca.</p>
             </div>
-
         </div>
     </main>
 
@@ -147,11 +126,33 @@
                 }, { once: true });
             });
         });
+
+        async function getClicks() {
+            try {
+                const res = await fetch("/clicks");
+                const data = await res.json();
+                document.getElementById("click-counter").innerText = "Cliques: " + data.count;
+            } catch (err) {
+                document.getElementById("click-counter").innerText = "Erro ao carregar cliques";
+            }
+        }
+
+        async function incrementClicks() {
+            try {
+                const res = await fetch("/clicks", { method: "POST" });
+                const data = await res.json();
+                document.getElementById("click-counter").innerText = "Cliques: " + data.count;
+            } catch (err) {
+                console.error("Erro ao incrementar clique");
+            }
+        }
+
+        document.addEventListener("click", incrementClicks);
+        setInterval(getClicks, 2000);
+        getClicks();
     </script>
 
     <div id="trail-container"></div>
     <script src="script.js"></script>
-
 </body>
-
 </html>
