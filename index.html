@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geme puta</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @keyframes pulse-card {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+            }
+
+            50% {
+                transform: scale(1.02);
+                box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+            }
+        }
+
+        .animate-pulse-card {
+            animation: pulse-card 2s infinite ease-in-out;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white min-h-screen flex flex-col">
+
+    <!-- Camada de introdução -->
+    <div id="intro"
+         class="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-md flex items-center justify-center z-50 cursor-pointer transition-opacity duration-500">
+        <p class="text-xl sm:text-xl text-white text-center px-4">Clique em qualquer lugar</p>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <main id="conteudo" class="flex-grow flex items-center justify-center opacity-0 transition-opacity duration-500">
+        <div class="flex flex-wrap gap-10 justify-center p-6">
+
+            <!-- Card ANDRE -->
+            <div class="rounded-2xl p-6 max-w-xs shadow-md animate-pulse-card bg-gradient-to-br from-zinc-900 via-zinc-800/80 to-black">
+                <div class="flex items-center gap-4 mb-4">
+                    <img src="https://cdn.discordapp.com/attachments/1354928174265274480/1358822085543334168/IMG_8068.jpg?ex=67f53d2e&is=67f3ebae&hm=b60f0dbefc14f038b32c516f2632fd02705e5fc67e36dd02b380d0640ef8b7cf&"
+                         alt="Foto de perfil" class="w-14 h-14 rounded-full border border-white">
+                    <div>
+                        <h2 class="text-xl font-bold tracking-widest">André</h2>
+                        <p class="text-sm text-gray-400">Especialista em te fazer feliz</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-2 mt-4">
+                    <a href="https://discord.com/users/1249477991747293266" target="_blank"
+                       class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
+                        <img src="https://img.icons8.com/?size=100&id=30888&format=png&color=FFFFFF" alt="Discord"
+                             class="w-4 h-4">
+                        esfolaram
+                    </a>
+                    <a href="https://instagram.com/andre.psyc" target="_blank"
+                       class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 h-4" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.056 2.005.246 2.47.415a4.92 4.92 0 0 1 1.675 1.093 4.92 4.92 0 0 1 1.093 1.675c.169.465.359 1.264.415 2.47.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.206-.246 2.005-.415 2.47a4.902 4.902 0 0 1-1.093 1.675 4.902 4.902 0 0 1-1.675 1.093c-.465.169-1.264.359-2.47.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.056-2.005-.246-2.47-.415a4.92 4.92 0 0 1-1.675-1.093 4.92 4.92 0 0 1-1.093-1.675c-.169-.465-.359-1.264-.415-2.47C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.206.246-2.005.415-2.47a4.902 4.902 0 0 1 1.093-1.675 4.902 4.902 0 0 1 1.675-1.093c.465-.169 1.264-.359 2.47-.415C8.416 2.175 8.796 2.163 12 2.163zm0 3.675a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z" />
+                        </svg>
+                        @andre.psyc
+                    </a>
+                </div>
+
+                <h3 class="text-gray-400 text-xs mb-1 mt-4">HABILIDADES</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-zinc-800 text-sm px-3 py-1 rounded-full">HTML/CSS</span>
+                    <span class="bg-zinc-800 text-sm px-3 py-1 rounded-full">JavaScript</span>
+                </div>
+                <p class="text-sm text-gray-300">Fiel, safado e carinhoso.</p>
+            </div>
+
+            <!-- Card DANIEL -->
+            <div class="rounded-2xl p-6 max-w-xs shadow-md animate-pulse-card bg-gradient-to-br from-zinc-900 via-zinc-800/80 to-black">
+                <div class="flex items-center gap-4 mb-4">
+                    <img src="https://cdn.discordapp.com/avatars/1240408239280226397/238442ddf166f24fb63c278041b76f86.png?size=4096"
+                         alt="Foto de perfil" class="w-14 h-14 rounded-full border border-white">
+                    <div>
+                        <h2 class="text-xl font-bold tracking-widest">Daniel</h2>
+                        <p class="text-sm text-gray-400">Não pertube!</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-2 mt-4">
+                    <a href="https://discord.com/users/1240408239280226397" target="_blank"
+                       class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
+                        <img src="image.png" alt="Discord" class="w-4 h-4">
+                        dnpecinha
+                    </a>
+                    <a href="https://www.instagram.com/dndc2k25/" target="_blank"
+                       class="inline-flex items-center gap-2 bg-zinc-800 text-gray-200 text-sm px-3 py-1 rounded-md hover:bg-zinc-700 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 h-4" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.056 2.005.246 2.47.415a4.92 4.92 0 0 1 1.675 1.093 4.92 4.92 0 0 1 1.093 1.675c.169.465.359 1.264.415 2.47.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.206-.246 2.005-.415 2.47a4.902 4.902 0 0 1-1.093 1.675 4.902 4.902 0 0 1-1.675 1.093c-.465.169-1.264.359-2.47.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.056-2.005-.246-2.47-.415a4.92 4.92 0 0 1-1.675-1.093 4.92 4.92 0 0 1-1.093-1.675c-.169-.465-.359-1.264-.415-2.47C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.206.246-2.005.415-2.47a4.902 4.902 0 0 1 1.093-1.675 4.902 4.902 0 0 1 1.675-1.093c.465-.169 1.264-.359 2.47-.415C8.416 2.175 8.796 2.163 12 2.163zm0 3.675a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z" />
+                        </svg>
+                        @dndc2k25
+                    </a>
+                </div>
+
+                <h3 class="text-gray-400 text-xs mb-1 mt-4">HABILIDADES</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-zinc-800 text-sm px-3 py-1 rounded-full">Jogar o dia todo</span>
+                    <span class="bg-zinc-800 text-sm px-3 py-1 rounded-full">Dormir tarde</span>
+                </div>
+                <p class="text-sm text-gray-300">Gosta de mulher brava, surtada e sapeca.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer text-center py-6 border-t border-zinc-700">
+        <div class="footer-title text-lg font-semibold tracking-widest mb-1">PSYCHOS - by. André</div>
+        <div class="footer-copy text-sm text-gray-500">© 2025 Psychosdc - Todos os direitos reservados.</div>
+    </footer>
+
+    <!-- Música de fundo -->
+    <audio id="bg-music" autoplay loop>
+        <source src="https://raw.githubusercontent.com/andrezin1k/psy/main/blaaaaas.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <!-- Scripts -->
+    <script>
+        const intro = document.getElementById("intro");
+        const conteudo = document.getElementById("conteudo");
+
+        intro.addEventListener("click", () => {
+            intro.classList.add("opacity-0");
+            setTimeout(() => {
+                intro.classList.add("hidden");
+                conteudo.classList.remove("opacity-0");
+            }, 500);
+        });
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const audio = document.getElementById('bg-music');
+            audio.volume = 0.3;
+            audio.play().catch(() => {
+                document.body.addEventListener('click', () => {
+                    audio.play();
+                }, { once: true });
+            });
+        });
+    </script>
+
+    <div id="trail-container"></div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

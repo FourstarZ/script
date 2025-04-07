@@ -1,0 +1,37 @@
+﻿#cursor {
+    width: 32px;
+    height: 27px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 9999;
+    background: url('cursor-roxo.png') no-repeat center center;
+    background-size: contain;
+    filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.6));
+}
+
+#trail-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9998;
+}
+
+.trail {
+    width: 16px;
+    height: 16px;
+    background: rgba(0, 255, 255, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+}
